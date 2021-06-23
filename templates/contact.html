@@ -1,7 +1,33 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block content %}
 
-{% block content %}
+<div>
+  <h1>Let's Talk - Hablemos</h1>
+  <p>
+    No dudes en ponerte en contacto conmigo si te intereso cualquier cosa,
+    ademas cualquier duda que tengas te puedo colaborar
+  </p>
+</div>
 
-<h1>formulario de contacto</h1>
-
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <h2>Enviame un mensaje</h2>
+        <form action="">
+          <h3>Nombre</h3>
+          <input type="text" name="nombre" />
+          <h3>Email</h3>
+          <input type="text" name="email" />
+          <h3>Mensaje</h3>
+          <input type="text" name="nombre" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    
+      <div class="col">
+        <h2>Contact</h2>
+        <p>Email: sebastianpintolopez@hotmail.com</p>
+        <p>Cel: +57 3508777462</p>
+      </div>
+  </div>
+</div>
 {% endblock %}

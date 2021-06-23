@@ -21,7 +21,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="/">About me</a>
         <button
@@ -38,13 +38,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Blog</a>
+              <a class="nav-link" style="background-color: #8B0000; margin-right: 10px; border: solid 1px white;" href="#">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Studies</a>
+              <a class="nav-link" style="background-color: #8B0000; margin-right: 10px; border: solid 1px white;" href="#">Studies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ url_for('contact')}}">Contact</a>
+              <a class="nav-link" style="background-color: #8B0000; margin-right: 10px; border: solid 1px white;" href="{{ url_for('contact')}}">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,6 +52,8 @@
     </nav>
 
     <div class="container p-4">{% block content %} {% endblock %}</div>
+
+    <footer>Made by Spaint</footer>
 
     <!-- bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
