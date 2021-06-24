@@ -5,3 +5,7 @@ body{
 
 }
 
+.wallpaper{
+    background-image: url(/static/images/car_wallpaper.jpg);
+    margin: 200px;
+}
