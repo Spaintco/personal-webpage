@@ -1,4 +1,13 @@
 .wallpaper{
     background-image: url(/static/images/car_wallpaper.jpg);
-    margin: 200px;
+    height: 620px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mask{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 620px;
 }
