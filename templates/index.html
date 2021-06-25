@@ -3,15 +3,20 @@
 <div class="wallpaper">
   <div class="mask position relative">
     <div class="position-absolute top-50 start-50 translate-middle">
-      <div class="card" style="width: 15rem; background-color: rgba(255, 255, 255, 0.1); color: whitesmoke;">
-        <img src="{{ url_for('static', filename='images/Foto_documento.JPG')}}" class="card-img-top
-        alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Mechanical Engineer</h5>
-          <p class="card-text">
-            Universidad industrial de santander - Colombia
-          </p>
-          <a href="/aboutme" class="btn btn-dark">About me</a>
+      <div class="card mb-3" style=" background-color: rgba(255, 255, 255, 0.1);color: whitesmoke;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{{ url_for('static',filename='images/Foto_documento.JPG')}}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body" style="text-align: center;">
+              <h1 class="card-title fst-italic">Sebastian Pinto Lopez</h1>
+              <h2 class="fst-italic text-decoration-underline">Mechanical engineer</h2>
+              <img src="{{ url_for('static',filename='images/LOGO UIS_PNG.png')}}" alt="" style="height: 70px;"><br>
+              <h6 style="color: gray;">Universidad Industrial de Santander - Colombia</h6>
+              <a href="#" class="btn btn-dark">About me</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
