@@ -1,7 +1,86 @@
 {% extends "layout.html" %} {% block content %}
 
-<div>
-    <p>Aqui va mi descripcion y mis cualidades</p>
+<div
+  id="carouselExampleControls"
+  class="carousel slide"
+  data-bs-ride="carousel"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="wallpaper">
+        <div class="mask position relative">
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="card text-white bg-dark mb-3">
+              <div class="card-header">Profile</div>
+              <div class="card-body">
+                <p class="card-text text-center">
+                  I am a mechanical engineering student with skills to work in
+                  equipment, creativity, tasks that require discipline and high
+                  versatility. I I stand out for being a committed person, with
+                  excellent skills communication and leadership based on good
+                  treatment. Personally, I like to be in constant learning
+                  because I consider that the world is constantly evolving,
+                  therefore, to support this evolution, learning is the basis
+                  and fundamental tool.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="wallpaper">
+        <div class="mask position relative">
+          <div class="position-absolute top-50 start-50 translate-middle">
+            <div class="container card1">
+              <div class="row">
+                <div class="col">
+                  <h3>Analytical thinking</h3>
+                </div>
+                <div class="col">
+                  <h3>active learning</h3>
+                </div>
+                <div class="col">
+                  <h3>complex problem solving</h3>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <h3>leadership and social influence</h3>
+                </div>
+                <div class="col">
+                  <h3>technology use</h3>
+                </div>
+                <div class="col">
+                  <h3>Resilience and stress tolerance</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleControls"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
 
 {% endblock %}
